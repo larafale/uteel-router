@@ -1,0 +1,19 @@
+{
+  "name": "uteel-router",
+  "version": "1.0.0",
+  "description": "simple router",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "babel-node test/index",
+    "build": "babel source -d dist",
+    "prepublish": "npm run build"
+  },
+  "author": "Louis Grellet <as1cron@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1"
+  }
+}
