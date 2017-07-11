@@ -7,8 +7,6 @@ npm i uteel-router
 
 ### Usage
 ```js
-import { geocode } from 'uteel-geocode'
-
 import { router as Router, get, post } from 'uteel-router'
 
 const router = Router(
